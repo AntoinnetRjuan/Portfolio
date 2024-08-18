@@ -1,0 +1,36 @@
+.stacks{
+    display: flex;
+    text-align: center;
+}
+.Parent{
+    margin-left: 5%;
+    border: 1px solid snow;
+    border-radius: 15px;
+    width: 90%;
+}
+.child{
+    border: 1px solid snow;
+    border-radius: 15px;
+    padding: 5%;
+    width: 80%;
+    margin: 5%;
+    text-align: center;
+}
+p{
+    margin-left: 10%;
+}
+.formProject{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 5%;
+}
+.iptProject{
+    height: 35px;
+    width: 50%;
+    margin: 5px;
+    margin-left: 25%;
+}
+.sbtIptProject{
+    margin-left: 48%;
+}

@@ -1,0 +1,23 @@
+.Menu{
+    font-size: 1.2em;
+    background-image:linear-gradient(to right, #213547,#576675);
+    
+ }
+ ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     list-style: none;
+ }
+ .btngit{
+    height: 46px;
+    width: 90px;
+ }
+ .imaGit{
+    height: 20px;
+    width: 20px;
+    margin: auto;
+ }
+ .menu{
+   margin-top: 0.6%;
+ }

@@ -1,0 +1,22 @@
+.homecss{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    margin-top: 1.3%;
+}
+img{
+    height: 17%;
+    width: 17%;
+    border-radius: 40%;
+    border: 10% solid black;
+}
+.creator{
+    color: lightgray;
+    margin-left: 43%;
+    margin-top: 3%;
+}
+.propos{
+    margin-top: 1%;
+}
