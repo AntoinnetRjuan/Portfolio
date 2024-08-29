@@ -1,17 +1,52 @@
-.contactcss{
+.contactcss {
     text-align: center;
+    padding: 5%;
 }
-table{
-    width: 30%;
-    margin-left: 30%;
-}
-.ipt{
-    height: 35px;
+
+table {
     width: 50%;
-    margin: 5px;
+    margin: 0 auto;
+    border-spacing: 10px;
 }
-.SendMessage{
-    margin: 6%;
+
+.ipt {
+    height: 35px;
+    width: 80%;
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.SendMessage {
+    margin: 6% auto;
+    padding: 20px;
     border: 1px solid white;
     border-radius: 9px;
+    max-width: 600px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    table {
+        width: 80%;
+    }
+
+    .ipt {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%;
+    }
+
+    .ipt {
+        width: 95%;
+    }
+
+    .SendMessage {
+        width: 100%;
+        padding: 15px;
+    }
 }
