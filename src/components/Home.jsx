@@ -3,7 +3,7 @@ export default function Home(){
     return(
         <>
             <div className="homecss">
-                <h1>welcome in my little Portfalio</h1>
+                <h1>welcome in my little Portfolio</h1>
                 <div className="Propos">
                     <h2>I am RATSARAFARA Jean Antoinnet</h2>
                     <h3>Developer</h3>
