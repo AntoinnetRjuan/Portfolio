@@ -1,4 +1,4 @@
-import me from '../images/.jpg'
+import me from '../images/github.png'
 import { Link } from "react-router-dom";
 export default function Menu(){
     return(
@@ -8,7 +8,7 @@ export default function Menu(){
                 <li className="menu"><Link to={"/About"}>About</Link></li>
                 <li className="menu"><Link to={"/Project"}>Projects</Link></li>
                 <li className="menu"><Link to={"/Contact"}>Contact</Link></li>
-                <li><Link><button className="btngit"><img className="imaGit" src="src\images\github.png"/></button></Link></li>
+                <li><Link><button className="btngit"><img className="imaGit" src={me}/></button></Link></li>
             </ul>
         </div>
     )
