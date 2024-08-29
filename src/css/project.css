@@ -1,36 +1,59 @@
-.stacks{
+.stacks {
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
-.Parent{
-    margin-left: 5%;
+
+.Parent {
+    margin: 5% auto;
     border: 1px solid snow;
     border-radius: 15px;
     width: 90%;
 }
-.child{
+
+.child {
     border: 1px solid snow;
     border-radius: 15px;
     padding: 5%;
     width: 80%;
-    margin: 5%;
+    margin: 20px auto;
     text-align: center;
 }
-p{
+
+p {
     margin-left: 10%;
+    margin-right: 10%;
 }
-.formProject{
-    border: 1px solid white;
-    border-radius: 15px;
-    width: 90%;
-    margin-left: 5%;
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .child {
+        width: 90%;
+        margin: 10px auto;
+        padding: 4%;
+    }
+
+    p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
-.iptProject{
-    height: 35px;
-    width: 50%;
-    margin: 5px;
-    margin-left: 25%;
-}
-.sbtIptProject{
-    margin-left: 48%;
+
+@media (max-width: 480px) {
+    .Parent {
+        width: 100%;
+    }
+
+    .child {
+        width: 95%;
+        padding: 3%;
+        margin: 15px auto;
+    }
+
+    p {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
