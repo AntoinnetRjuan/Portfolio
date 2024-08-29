@@ -1,4 +1,4 @@
-
+import me from '../images/profil.jpg'
 export default function Home(){
     return(
         <>
@@ -7,7 +7,7 @@ export default function Home(){
                 <div className="Propos">
                     <h2>I am RATSARAFARA Jean Antoinnet</h2>
                     <h3>Developer</h3>
-                    <img src="src\images\profil.jpg"/>
+                    <img src={me}/>
                 </div>
                 
             </div>
