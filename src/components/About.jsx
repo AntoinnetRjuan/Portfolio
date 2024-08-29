@@ -5,9 +5,11 @@ export default function About(){
             <hr className="firstHr"/>
             <div className="AboutMyself">
                 <p>
-                    My name is RATSARAFARA Jean Antoinnet. I am 22 years old.I am a student at Institut Superieur Politique de Madagascar.
-                    I am passionning by learning new technologies.My major at ISPM is Informatique de gestion, genie logiciel et Intelligence Artificielle.
-                    Now ,I am in my Third year.
+                  My name is RATSARAFARA Jean Antoinnet,
+                  a 22-year-old student at the Institut Supérieur Politique 
+                  de Madagascar (ISPM). I am currently in my third year, majoring in 
+                  Information Systems, Software Engineering, and Artificial Intelligence. 
+                    I have a deep passion for exploring and mastering new technologies, always eager to expand my knowledge and skills in this ever-evolving field.
                 </p>
             </div>
             <div className="Skills">
