@@ -10,13 +10,11 @@
      list-style: none;
  }
  .btngit{
-    height: 46px;
-    width: 90px;
+     padding:6px;
  }
  .imaGit{
     height: 20px;
     width: 20px;
-    margin: auto;
  }
  .menu{
    margin-top: 0.6%;
