@@ -1,6 +1,7 @@
 .homecss {
     text-align: center;
     margin-left: auto;
+    width:100%;
     margin-right: auto;
     border: 2px solid whitesmoke;
     border-radius: 15px;
