@@ -1,6 +1,6 @@
 .homecss {
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid whitesmoke;
@@ -47,7 +47,7 @@ img {
 
 @media (max-width: 480px) {
     .homecss {
-        width: 80%;
+        width: 100%;
         padding: 10px;
         margin-top: 2%;
     }
