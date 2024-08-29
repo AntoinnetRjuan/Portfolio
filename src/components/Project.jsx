@@ -1,17 +1,6 @@
 export default function Project(){
     return(
         <>
-        <div className="formProject">
-            <form action="#">
-                <input className="iptProject" type="text" placeholder="ProjectName" required name="Name"/><br />
-                <input className="iptProject" type="text" placeholder="Description" required name="Email"/><br />
-                <input className="iptProject" type="text" placeholder="Stack" required name="Subject"/><br />
-                <button className="sbtIptProject" type="submit">
-                    SAVE
-                </button>
-            </form>
-        </div>
-        
         <div className="Parent">
             <div className="child">
                 <h2>Title of the project</h2>
